@@ -1,0 +1,190 @@
+:root {
+    --border-color: #8697B5;
+    --border-btm-color: #2F528F;
+    --bg-color: #D9D9D9;
+    --line-color: #D5E0F1;
+    --add-color: #4472C4;
+    --middle-color: #F2F2F2;
+    --box-color: #DEEBF7;
+}
+
+fieldset {
+    display: block;
+    border: 1px solid var(--border-color);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 100px;
+}
+
+label {
+    display: flex;
+    padding: 10px;
+}
+
+input {
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+
+}
+
+legend {
+    border: 1px solid var(--border-color);
+    background: white;
+    padding: 10px;
+    width: fit-content;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+
+.title, .title2, .title3 {
+    display: flex;
+    border-bottom: 1px solid var(--border-btm-color);
+    font-size: medium;
+    font-weight: bold;
+    background: var(--bg-color);
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.title2 {
+    justify-content: space-between;
+}
+
+.title3 {
+    background: black;
+    color: white;
+}
+
+.middle {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    font-size: medium;
+    font-weight: bold;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 2px var(--bg-color) dashed;
+}
+
+.middle2, .middle4 {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    background: var(--middle-color);
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.middle4 {
+    width: 77%;
+}
+
+.middle3 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background: var(--box-color);
+    padding: 20px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.add, .add2, .add3 {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid var(--line-color);
+    line-height: 0.1em;
+    margin: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.add2 {
+    width: 80%;
+}
+
+.add3 {
+    display: flex;
+    width: 80%;
+    border-bottom: 5px solid var(--add-color);
+}
+
+
+.btn, .btn2 {
+    position: relative;
+    top: 15px;
+    margin-top: -20px;
+    cursor: pointer;
+    border: 1px solid var(--line-color);
+    color: var(--add-color);
+    background: #fff;
+    padding: 5px;
+}
+
+.btn2 {
+    margin-left: 5px;
+}
+
+
+
+.box {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    padding: 10px;
+    margin: 10px;
+}
+
+.fd {
+    margin-left: 55px;
+}
+
+.fd2 {
+    margin-left: 100px;
+    text-align: center;
+}
+
+.fd3 {
+    margin-left: 50px
+}
+
+
+.cancel {
+    border: none;
+    background: transparent;
+}
+
+.prv {
+    background: black;
+    padding: 5px;
+    border: none;
+    color: white;
+}
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--border-color);
+    font-size: medium;
+    font-weight: bold;
+    background: var(--bg-color);
+    margin-bottom: 20px;
+    margin: 10px;
+}
