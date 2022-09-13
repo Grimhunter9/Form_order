@@ -46,7 +46,6 @@ button {
 img {
     width: 30px;
     height: 30px;
-
 }
 
 legend {
@@ -58,8 +57,15 @@ legend {
     margin-left: 10px;
 }
 
-#toggle{
-    display: none; 
+#toggle, #singular, #plural , #build , #Myform{
+    display: none;
+}
+
+.mid{
+    display: block;
+    padding: 0;
+    margin: 100px;
+    text-align: center;
 }
 
 .title, .title2, .title3 {
