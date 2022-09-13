@@ -58,7 +58,7 @@ legend {
 }
 
 #toggle, #singular, #plural , #build , #Myform{
-    display: none;
+    display: none; 
 }
 
 .mid{
